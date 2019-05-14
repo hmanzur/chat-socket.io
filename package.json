@@ -1,0 +1,23 @@
+{
+  "name": "socket.io-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=dev node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.8.0",
+    "socket.io": "^2.2.0",
+    "socketio-jwt-auth": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^2.1.2",
+    "dotenv": "^8.0.0",
+    "pg-promise": "^8.7.2"
+  }
+}
